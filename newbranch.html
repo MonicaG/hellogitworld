@@ -1,0 +1,107 @@
+<!--
+Entrega 1, Alberto Quesada
+
+A continuación presento mi propuesta de solución al primer ejercicio.
+
+Aunque se pida utilizar las etiquetas div y span yo no las he usado
+porque creo que no es necesario para formatear este texto tal y como
+esta en el archivo base que nos han dado para copiar ya que todo el 
+texto esta en el mismo color, mismo tipo de letra y los únicos cambios
+son negrita (<strong>), diferentes titulos (<h1>, <h2> y <h3>), parrafos
+(<p>) y listas (<ol>).
+
+A continuación muestro comentado un ejemplo de creación y uso de estas 
+etiquetas:
+
+<style type="text/css">
+p {
+	color: #000000
+}
+mi_estilo {
+	color: #FA8072
+}
+span.raro {
+	color: #C0C0C0
+}
+</style>
+
+<div class="mi_estilo">
+	<h1> título de ejemplo </h1>
+	<p> parrafo <span class="raro"> de </span> ejemplo </p>
+</div>
+
+-->
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Entrega 1: Ayuda Titanes del Ajedrez</title>
+
+</head>
+
+<body>
+
+<h1>Titanes del ajedrez: cómo jugar</h1>
+<p>Titanes del ajedrez vuelve a revivir el juego de estrategia clásico, con gráficos y animación tridimensionales.</p>
+
+<h2>Para iniciar una partida</h2>
+<ol>
+	<li>Para abrir la carpeta Juegos, haga clic en el icono de la aplicación Titanes del ajedrez.</li>
+	<li>Haga clic en una pieza y luego en el recuadro al que quiere moverla. Los movimientos legales se muestran en color azul.</li>
+</ol>
+
+<h2>Para guardar un juego</h2>
+<p>Si desea terminar la partida más tarde, salga del juego y haga clic en Guardar. La próxima vez que juegue, se le preguntará si desea continuar la partida guardada. Para ello, haga clic en Sí.</p>
+
+<h2>Para cambiar las opciones del juego</h2>
+<p>Puede ajustar el nivel de dificultad y los ajustes de sonido y animación, entre otros.</p>
+<ol>
+	<li>Haga doble clic en Titanes del ajedrez.</li>
+	<li>Haga clic en el menú Juego y, a continuación, haga clic en Opciones</li>
+	<li>Realice sus selecciones y haga clic en Aceptar.</li>
+</ol>
+
+<h2> Para personalizar la apariencia del juego</h2>
+<p>Puede elegir entre varios tableros y estilos de piezas.</p>
+<ol>
+	<li>Haga doble clic en Titanes del ajedrez.</li>
+	<li>Haga clic en el menú Juego y, a continuación, haga clic en Cambiar apariencia.</li>
+	<li>Realice sus selecciones y haga clic en Aceptar.</li>
+</ol>
+
+<h2>Titanes del ajedrez: reglas y aspectos básicos</h2>
+<p>Esta guía está pensada para principiantes. Puede encontrar información más completa sobre este complejo juego en Internet o en su biblioteca habitual.</p>
+
+<h3>Objetivo</h3>
+<p>Titanes del ajedrez es un juego para dos jugadores, apodados Negras y Blancas. El objetivo es capturar el rey del adversario. En este juego, esto se conoce como jaque mate.</p>
+
+<h3>Tablero</h3>
+<p>Al ajedrez se juega en un tablero de 64 recuadros. Cada jugador empieza con 16 piezas, alineadas en dos filas. La primera fila está ocupada por las piezas denominadas peones. La fila siguiente contiene: un rey una reina, dos torres, dos alfiles y dos caballos.</p>
+
+<h3>Cómo jugar</h3>
+<p>Primero salen las blancas y luego se alternan los turnos.</p>
+<p>Haga clic en una pieza y luego en el recuadro al que quiere moverla. Cuando selecciona una pieza, Titanes del ajedrez le muestra a dónde puede moverla resaltando el recuadro en azul; los recuadros con piezas contrarias que puede capturar se muestran en color rojo.</p>
+<p><strong>Rey:</strong> un recuadro en cualquier dirección: hacia delante, hacia atrás, de lado o en diagonal. El rey es la pieza más débil del juego y la más importante.</p>
+<p><strong>Reina:</strong> un número ilimitado de recuadros sin ocupar en cualquier dirección. La reina es la pieza más poderosa del juego.</p>
+<p><strong>Torre:</strong> un número ilimitado de recuadros libres, pero solo hacia delante, hacia atrás o de lado.</p>
+<p><strong>Alfil:</strong> un número ilimitado de recuadros libres, pero solo en diagonal.</p>
+<p><strong>Caballo:</strong> en forma de "L": dos recuadros hacia cualquier dirección, un giro de 90 grados y un recuadro más. El caballo es el "bicho raro" del juego. Los caballos son también las únicas piezas que pueden saltar sobre las demás.</p>
+<p><strong>Peón:</strong> dos recuadros hacia delante en el primer movimiento; un solo recuadro en los siguientes. Excepción: los peones capturan piezas enemigas moviéndose en diagonal.</p>
+
+<p>Un jaque mate se produce cuando una pieza enemiga atrapa al rey y éste no tiene escapatoria posible. Cuando esto ocurre, el recuadro del rey se enciende de color rojo.</p>
+
+<h3>Maniobras</h3>
+<p>Además de los movimientos permitidos para cada pieza, el juego de ajedrez también tiene maniobras estratégicas. A continuación, le ofrecemos algunas que puede probar:</p>
+
+<h3>Enrocarse</h3>
+<p>Esta maniobra defensiva, diseñada para proteger al rey, requiere mover dos piezas a la vez. Es el único momento en que está permitido en el ajedrez. En esta situación, el rey avanza dos espacios hacia un lado, mientras la torre se mueve al espacio que se ha saltado el rey.</p>
+
+<h3>Toma al paso</h3>
+<p>Este movimiento ofensivo raro aunque útil, del francés "en passant", solo está permitido en determinadas circunstancias. Sólo ocurre cuando uno de los peones está parado en la quinta fila y un peón del enemigo de una columna adyacente intenta avanzar dos recuadros en su primer movimiento.</p>
+
+<h3>Coronación del peón</h3>
+<p>Haga avanzar un peón a través de todo el tablero y lo podrá convertir en torre, caballo, alfil o reina. Esto aumentará el número de piezas poderosas de su ejército. Normalmente la mejor estrategia es coronarlo reina.</p>
+
+</body>
+</html> 
