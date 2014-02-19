@@ -1,0 +1,10 @@
+<html>
+  <head>
+  </head>
+
+  <body>
+    <p>Some scrap HTML junk</p>
+  </body>
+
+
+</html>
